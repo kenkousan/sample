@@ -1,0 +1,281 @@
+
+/*---- 目次 ----*/
+/*---- 1. FONT フォント指定 ----*/
+/*---- 2. FOVER リンクエフェクト設定----*/
+/*---- 3. BACKGROUND 背景色----*/
+/*---- 4. トップ画像設定----*/
+/*---- 5.  メインタイトル----*/
+/*---- 6. メニューボタン設定 ----*/
+/*---- 7. SOCIAL SNSアイコン設定----*/
+/*---- 8. CONTENTS1----*/
+/*---- 9. CONTENTS2----*/
+/*---- 10.  フッター----*/
+/* -------------- 1.FONT ---------------- */
+.body{
+font-family: Arial, Helvetica, sans-serif, Meiryo;
+}
+
+/* -------------- 2.FOVER ---------------- */
+
+/* ------------------------------------- */
+/* -------------- リンクエフェクト設定 ---------------- */
+/* ------------------------------------- */
+
+/* -------------- 3.BACKGROUND ---------------- */
+/* -------------- 背景色 ---------------- */
+/* Layout Properties */
+#wrapper{
+    top: -100px;
+    left: -40px;
+    width: auto;
+    height: auto;
+}
+    /* UI Properties */
+    #wrapper{
+    background: #9b9b9bcc 0% 0% no-repeat padding-box;
+    border: 3px solid #060001;
+    border-radius: 15px;
+    opacity: 1;
+    background: #9b9b9bcc;
+    border-radius: 2%;
+    box-shadow: inset 3.3px 3.3px 41px #000000, 
+    inset -3.3px -3.3px 41px #000000;
+    }
+    
+    /*--------------- 4.HEDDER-ICON ---------------*/
+    /* --------------------------------------------- */
+    /* --------------トップ画像設定 ---------------- */
+    /* --------------------------------------------- */
+    /* Layout Properties */
+    #header-top{
+        padding: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo { 
+        display: flex;
+        width: 600px; 
+        height: 250px; 
+        overflow: hidden; 
+        background: #666;
+      } 
+      .slide-item { 
+        width: 600px; 
+        height: 250px; 
+        float: left; 
+        position: relative; 
+        background: #222;
+        color: #fff;
+        display: flex;
+        align-items: center;
+      } 
+      .slider-wrapper { 
+        width: 500%; 
+        position: relative; 
+        left: 0; 
+        will-change: transform; 
+        animation: slider 30s infinite;  /* --←秒指定 --*/
+      } 
+      @keyframes slider { 
+        0% { transform: translateX(0); } 
+        33% { transform: translateX(-600px); } 
+        66% { transform: translateX(-1200px); } 
+        100% { transform: translateX(0); } 
+      }
+  
+      /* UI Properties */
+   #mainlogo .img{
+   background: transparent url('img/egao3.png') 0% 0% no-repeat padding-box;
+   opacity: 1;
+   }
+/*--------------- 5.TITLE ---------------*/
+/* --------------------------------------------- */
+/* -------------- メインタイトル ---------------- */
+/* --------------------------------------------- */
+    /* Layout Properties */
+   #title
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #2b2b2b;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    color: transparent;
+    letter-spacing: 0.1em;
+    text-shadow:
+      0 0 2px rgba(204, 208, 212,0.9),
+      0 15px 25px rgba(0, 0, 0, 0.3),
+      0 -2px 3px rgba(0, 0, 0, 0.1),
+      0 -5px 10px rgba(255, 255, 255, 0.5),
+      0 5px 10px rgba(0, 0, 0, 0.3),
+      0 3px 4px rgba(255, 255, 255, 0.2),
+      0 0 20px rgba(255, 255, 255, 0.45);
+    }
+
+    /* UI Properties */
+    #title
+    {
+    opacity: 1;
+    }
+   
+      /*---------------6.NAVIGATION ---------------*/
+      /* --------------------------------------------- */
+      /* ------------メニューボタン設定 -------------- */
+      /* --------------------------------------------- */
+      #navigation{
+        margin: auto;
+        display:flex;   
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 100px; 
+      }  
+      .navime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding:10px;
+    background: linear-gradient(145deg, #B7BFD0, #EDF7FF);
+    border-radius: 15%;
+    box-shadow: 2.4px 2.4px 22px #AEB6C6, -2.4px -2.4px 22px #F6FFFF;
+    }
+    /*---------------7.SOCIAL ---------------*/
+    /* --------------------------------------------- */
+    /* ------------　SNSアイコン設定　-------------- */
+    /* --------------------------------------------- */
+    /* Layout Properties */
+    .icon{
+    top: 616px;
+    left: 959px;
+    width: 110px;
+    height: 110px;
+    }
+    /* UI Properties */
+    .icon
+    {
+    background: #30A6DF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    }
+    
+    /*---------------8.CONTENTS1---------------*/
+    /* Layout Properties */
+.contents1{
+    padding: 10px;
+    grid-template-columns: 600px 360px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 150px 0px 150px;
+}
+    /* UI Properties */
+
+    /*---------------CONTETNTS1_comment---------------*/
+    /* Layout Properties */
+    .c1item1-photo{
+        display: grid;
+        width: 250px;
+        height: 250px;
+        background: linear-gradient(145deg, #D0D1D5, #FFFFFF);
+        border-radius: 10%;
+        box-shadow: inset 0.6px 0.6px 35px #B5B6B9, inset -0.6px -0.6px 35px #FFFFFF;
+    }
+    /* UI Properties */
+    .c1item1-photo{
+    background: 60% 60% no-repeat padding-box;
+    opacity: 1;
+    }
+    /*---------------CONTETNTS1_LINKTEXT---------------*/
+    /* Layout Properties */
+    .c1item1-comment{
+        grid-column-start: c1item1-comment;
+        width: 250px;
+        height: 150px;
+        background: linear-gradient(145deg, #D0D1D5, #FFFFFF);
+        border-radius: 0%;
+        box-shadow: inset 0.6px 0.6px 100px #B5B6B9, inset -0.6px -0.6px 35px #FFFFFF; }
+    /* UI Properties */
+    .c1item1-comment{
+        background: 80% 80% no-repeat padding-box;
+        opacity: 1;
+        }
+ 
+    /*--------------- yajirushi ---------------*/
+    /* Layout Properties */
+    .c1item1-daimei{
+        margin-top: 50px;
+        grid-column-start: c1item1-daimei;
+        width: 250px;
+        height: 100px;
+        background: #FFFFFF4F;
+        border-radius: 0%;
+        
+    }
+    /* UI Properties */
+    .c1item1-daimei{
+        text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    /* --------------- 9.CONTENTS2 ---------------*/
+    /* Layout Properties */
+   .contents2
+    {
+        padding:10px;
+        grid-template-columns: 600px 360px;
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 100px 100px;
+        grid-template-columns: 150px 0px 150px;
+    }
+    /* UI Properties */
+    .contents2
+    {
+          background: 60% 60% no-repeat padding-box;
+            opacity: 1;
+            }
+    
+    
+    /*---------------CONTETNTS2_comment ---------------*/
+    /* Layout Properties */
+    .c2item1-shop{
+        display: grid;
+        width: 250px;
+        height: 250px;
+        background: linear-gradient(145deg, #D0D1D5, #FFFFFF);
+        border-radius: 10%;
+        box-shadow: inset 0.6px 0.6px 35px #B5B6B9, inset -0.6px -0.6px 35px #FFFFFF;
+     }
+     .c2item1-shop {
+        background: 60% 60% no-repeat padding-box;
+          opacity: 1;
+          }
+     .c2item1-comment{
+        grid-column-start: c1item1-comment;
+        width: 250px;
+        height: 150px;
+        background: linear-gradient(145deg, #D0D1D5, #FFFFFF);
+        border-radius: 0%;
+        box-shadow: inset 0.6px 0.6px 100px #B5B6B9, inset -0.6px -0.6px 35px #FFFFFF; }
+        
+    
+    /* UI Properties */
+    .c2item1-comment{
+        background: 80% 80% no-repeat padding-box;
+        opacity: 1;
+        }
+    .c2item1-daimei{
+        margin-top: 50px;
+        grid-column-start: c1item1-daimei;
+        width: 250px;
+        height: 100px;
+        background: #FFFFFF4F;
+        border-radius: 0%;
+    }
